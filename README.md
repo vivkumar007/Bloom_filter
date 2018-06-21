@@ -11,7 +11,7 @@ Most important operations of a bloom filter are **test** and **add**.
 
 -	Add simply adds an element to the set. Removal is impossible without introducing false negatives, but extensions to the bloom filter are possible that allow removal e.g. counting filters.
 
-![alt text](Bloom_filter/images/bloom-filter.png "Description goes here..")
+![bloom-filter](https://user-images.githubusercontent.com/29231034/41744799-825ef6e2-75c2-11e8-9e81-45647c10f85d.png)
 
 
 # Use cases:
@@ -21,7 +21,6 @@ Most important operations of a bloom filter are **test** and **add**.
 
 > Bloom filters can also be used to reduce I/O operations and thus increase performance.
 
-![bloom-filter](https://user-images.githubusercontent.com/29231034/41744799-825ef6e2-75c2-11e8-9e81-45647c10f85d.png)
 
 A bloom filter doesn’t store the elements themselves, this is the important part. You don’t use a bloom filter to test if an element is present, you use it to test whether it’s certainly **not** present, since it guarantees no false negatives.
 
