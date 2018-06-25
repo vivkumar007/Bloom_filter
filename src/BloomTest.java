@@ -41,6 +41,9 @@ public class BloomTest {
 		
 		assertTrue("Method contains the value", true);
 		}
+		else{
+			assertFalse("Method contains the value", false);
+		}
         
 /***************************************************/        
 		/*assertEquals(135, 135);*/
