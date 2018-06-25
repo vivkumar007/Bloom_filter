@@ -35,5 +35,6 @@ A bloom filter doesn’t store the elements themselves, this is the important pa
 ### To Run/Test an example in Eclipse
 * Install JDK and eclipse/intellij idea
 * Pull the source code 
-* Execute the "Bloom_filter/src/BloomFilterTest.java" in any apllication(eclipse/intellij idea)
-* Follow the given instruction **output.txt**
+* Execute the **"Bloom_filter/src/BloomFilterTest.java" & BloomTest.java** in any apllication(eclipse/intellij idea)
+* with the help of BloomTest.java, checking method functionality @Before & @After. 
+* Follow the given instruction **output.txt** 
